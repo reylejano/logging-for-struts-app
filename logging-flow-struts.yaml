@@ -12,3 +12,4 @@ spec:
       container_names: []
       hosts: []
       labels:
+        app: struts
