@@ -1,0 +1,17 @@
+apiVersion: v1
+items:
+- apiVersion: logging.banzaicloud.io/v1beta1
+  kind: Flow
+  metadata:
+    name: struts-logs
+    namespace: struts
+  spec:
+    globalOutputRefs: []
+    localOutputRefs:
+    - struts
+    match:
+    - select:
+        container_names: []
+        hosts: []
+        labels:
+          app: struts

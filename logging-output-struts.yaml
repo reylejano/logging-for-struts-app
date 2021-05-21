@@ -1,0 +1,8 @@
+apiVersion: logging.banzaicloud.io/v1beta1
+kind: Output
+metadata:
+  name: struts
+  namespace: struts
+spec:
+  file:
+    path: /tmp/struts-logs
