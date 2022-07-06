@@ -5,4 +5,4 @@ metadata:
   namespace: struts
 spec:
   file:
-    path: /tmp/struts-logs
+    path: /rancher-logs/struts-logs
